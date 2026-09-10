@@ -1,0 +1,9 @@
+services:
+  db:
+    image: mysql:8.4
+    container_name: crimson-mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: 12345678
+      MYSQL_DATABASE: crimson
+    ports:
+      - "3306:3306"
