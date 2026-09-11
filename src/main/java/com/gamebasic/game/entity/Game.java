@@ -65,4 +65,9 @@ public class Game {
     public boolean isFinished() {
         return status != GameStatus.PLAYING;
     }
+
+    // 9단계 테스트용 FAILED 게임 만들기 => createGame()
+//    public void reState() {
+//        this.status = GameStatus.FAILED;
+//    }
 }
